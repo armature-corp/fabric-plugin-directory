@@ -1,11 +1,14 @@
 <template>
-
   <section class="au-animate">
     <h2>${heading}</h2>
 
-    <div repeat.for="plugin of plugins">
-        <a route-href="route: pager"> ${plugin.name} </a>  
-    </div>
-
+	<ul style="list-style:none;">
+		<li>
+			<a route-href="route: hello-world"> Hello World </a>		
+		</li>
+		<li>
+			<a route-href="route: pager"> Pager </a>
+		</li>
+	</ul>
   </section>
 </template>
