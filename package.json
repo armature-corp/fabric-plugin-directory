@@ -68,7 +68,7 @@
   "jspm": {
     "dependencies": {
       "appleskin/skeleton-plugin": "github:appleskin/skeleton-plugin@^1.0.0",
-      "armature-corp/fab-pager": "github:armature-corp/fab-pager@master",
+      "armature-corp/fab-pager": "github:armature-corp/fab-pager@^1.0.1",
       "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-rc.1.0.0",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-rc.1.0.0",
       "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-rc.1.0.0",
