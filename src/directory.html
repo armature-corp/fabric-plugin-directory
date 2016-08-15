@@ -1,0 +1,11 @@
+<template>
+
+  <section class="au-animate">
+    <h2>${heading}</h2>
+
+    <div repeat.for="plugin of plugins">
+        <a route-href="route: hello-world"> ${plugin.name} </a>  
+    </div>
+
+  </section>
+</template>
