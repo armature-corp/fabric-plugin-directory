@@ -8,6 +8,7 @@ export function configure(aurelia) {
 
   // FAB-UI PLUGINS
   aurelia.use.plugin('appleskin/skeleton-plugin');
+  aurelia.use.plugin('armature-corp/fab-pager');
 
   aurelia.start().then(() => aurelia.setRoot());
 }

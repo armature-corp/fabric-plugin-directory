@@ -6,6 +6,10 @@ export class Directory {
     {
       name: 'Skeleton Plugin',
       route: 'hello-world'
+    },
+    {
+   	  name: 'Pager',
+   	  route: 'pager'	
     }
   ];
 

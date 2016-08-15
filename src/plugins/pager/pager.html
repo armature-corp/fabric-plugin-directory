@@ -1,0 +1,22 @@
+<template>
+	<section>
+		<h2>Pager</h2>
+		<div>
+			<span>Docs</span>
+			<div>
+				...
+			</div>
+		</div>
+
+		<div>
+			<span>Example</span>
+			<pager page-size.bind="5" local-mode.bind="true" dataset.two-way="items">
+		    	<template replace-part="pager-view">
+					<div repeat.for="item of items">
+						${item.name}
+					</div>
+		    	</template>
+			</pager>
+		</div>
+	</section>
+</template>
